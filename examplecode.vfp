@@ -1,6 +1,6 @@
-<apex:page standardController="contact" showheader="false" contenttype="text/vcard; charset=iso-8859-1 #export.vcf"><apex:outputtext>BEGIN:VCARD
+<apex:page standardController="contact" showheader="false" contenttype="text/vcard; charset=iso-8859-1 #export.vcf"><apex:outputtext >BEGIN:VCARD
 VERSION:4.0
-N:Gump;Forrest;;Mr.;
+N:Gump;{!contact.FirstName};;Mr.;
 FN:Forrest Gump
 ORG:Bubba Gump Shrimp Co.
 TITLE:Shrimp Man
