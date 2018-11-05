@@ -1,10 +1,16 @@
 # SalesForce_vCard
 Salesforce can allow users in your org to share vCards for Free!
 
-Steps: 
 
-1.) Create a Visualforce Page in Salesforce
-(Settings -> Pages -> Visualforce -> Edit) 
+Visualforce Page Code Sample includes content type tag example that exports different file types 
+Apex contenttype attribute example: 
+`contenttype="text/vcard; charset=iso-8859-1 #export.vcf"`
+
+VCard 4.0 format adapted from: https://en.wikipedia.org/wiki/VCard
+
+
+
+
 
 2.) Copy the Code from this repository into the page
 
