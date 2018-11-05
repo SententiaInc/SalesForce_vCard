@@ -37,7 +37,7 @@ Additionally you need to create a contact custom detail page button and add it t
 
 Display in New Window (URL): 
 
-`/apex/testVcard?id={!Contact.Id}`
+`/apex/[THE NAME OF YOUR VISUALFORCE PAGE]?id={!Contact.Id}`
 
 ![alt text](https://github.com/SententiaInc/Salesforce_vCard/blob/master/buttonCode.PNG "Vanilla Javascript SOQL JSON Example")
 
