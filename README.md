@@ -8,12 +8,24 @@ Apex contenttype attribute example:
 
 VCard 4.0 format adapted from: https://en.wikipedia.org/wiki/VCard
 
+You will need to enhance the code to include fields that you want to include
+
+Example: 
+
+If you want to pre-populate a contact name you must edit the following line to include
+
+`N:Gump;Forest;;Mr.;`
+
+To: 
+
+`N:Gump;{!contact.FirstName};;Mr.;`
+
+Note, you may also want to use the visualforce substitute function to wrap this. 
+
+Additionally you need to create a contact vustom detail page button and add it to the page layout of the contact record. 
+
+Display in New Window (URL): 
+
+`/apex/testVcard?id={!Contact.Id}`
 
 
-
-
-2.) Copy the Code from this repository into the page
-
-3.) Update Security (if you want others in the org to be able to use it) 
-
-4.) Create a button on the contact record to access the vCard
